@@ -91,14 +91,14 @@ REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL)
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c5c6c001162633fc7d0d1466eb1b3802d7afaca8')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #Openai
 AI = is_enabled((environ.get("AI","True")), True)
 OPENAI_API = environ.get("OPENAI_API"," ")
-AI_LOGS = int(environ.get("AI_LOGS","-1001902857679")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of Bot ]
+AI_LOGS = int(environ.get("AI_LOGS","-1001622114048")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of Bot ]
 
 
 #Auto approve
@@ -111,12 +111,12 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/Elsasupportgp")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+1iWSCrpI_083MDM1")
+S_GROUP = environ.get('S_GROUP',"https://t.me/Mc_group_films")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Mc_Films_Update")
 #Must change this link to work redirect (FILE_FORWORD)
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+1dbVg9pA2GphZmI1")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+OZwNX3AfewkxZmNl")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001902857679))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Elsasupportgp')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
