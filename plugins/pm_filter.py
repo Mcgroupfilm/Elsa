@@ -213,13 +213,14 @@ async def next_page(bot, query):
             ]
     btn.insert(0,
                [
-                   InlineKeyboardButton(f' ♀️ {search} ♀️ ', 'qinfo')
+                   InlineKeyboardButton("📢𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄 !, url='https://t.me/Mc_Films_Update'),
+                   InlineKeyboardButton("​🍾𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌", url='https://t.me/Mc_Group_Update'),
                ]
                )
     btn.insert(1,
                [
-                   InlineKeyboardButton("Send All !", callback_data=f"send_fall#files#{key}#{offset}"),
-                   InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search.replace(' ', '_')}#{key}")
+                   InlineKeyboardButton("🔮𝐒𝐄𝐍𝐃 𝐀𝐋𝐋 !", callback_data=f"send_fall#files#{key}#{offset}"),
+                   InlineKeyboardButton("🍭𝐋𝐀𝐍𝐆𝐔𝐀𝐆𝐄​", callback_data=f"languages#{search.replace(' ', '_')}#{key}")
                ]
                )
     btn.insert(2,
