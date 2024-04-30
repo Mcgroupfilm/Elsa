@@ -282,17 +282,25 @@ Elsa
 """
 
     IMDB_TEMPLATE_TXT = """
-<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
+<b>𝐇𝐞𝐲 {message.from_user.mention}, 𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐫𝐞𝐬𝐮𝐥𝐭 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 {qurey}
 
-🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+🏷 𝐓𝐢𝐭𝐥𝐞 : {title}
 
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
+🎭 𝐆𝐞𝐧𝐫𝐞𝐬 : {genres}
 
-©{message.chat.title}</b>
-"""
+🌟 𝐑𝐚𝐭𝐢𝐧𝐠 : {rating}
+
+☀️ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 : {languages}
+
+📀 𝐑𝐮𝐧𝐓𝐢𝐦𝐞 : {runtime}
+
+📆 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐈𝐧𝐟𝐨 : {year}
+
+🎛 𝐂𝐨𝐮𝐧𝐭𝐫𝐢𝐞𝐬 : {countries}
+
+⏱️ 𝐑𝐞𝐬𝐮𝐥𝐭 𝐒𝐡𝐨𝐰𝐧 𝐢𝐧: {remaining_seconds} <i>seconds</i> 
+
+𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 {message.chat.title}</b>"""
 
     CUSTOM_FILE_CAPTION = """
 
@@ -314,7 +322,11 @@ Elsa
 ⏰Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️"""
+    MELCOW_ENG = """<b>{message.chat.title}
+{count}
+
+[🥰🥰🥰](tg://user?id={temp.B_NAME})
+"""
 
     ALRT_TXT = """ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ꜰᴏʀ ʏᴏʏ ꜱɪʀ"""
 
