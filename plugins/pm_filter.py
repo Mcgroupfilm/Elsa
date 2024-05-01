@@ -205,7 +205,7 @@ async def next_page(bot, query):
                         text=f"🦜{file.file_name}", callback_data=f'files#{file.file_id}'
                     ),
                     InlineKeyboardButton(
-                        text=f"{get_size(file.file_size)}🍿",
+                        text=f"{get_size(file.file_size☘️)}",
                         callback_data=f'files_#{file.file_id}',
                     ),
                 ]
@@ -213,8 +213,8 @@ async def next_page(bot, query):
             ]
     btn.insert(0,
                [
-                   InlineKeyboardButton("📢𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄 !", url='https://t.me/Mc_Films_Update')
-                   InlineKeyboardButton("​🍾𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌", url='https://t.me/Mc_Group_Update'),
+                   InlineKeyboardButton("📢𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄 !", url='https://t.me/Mc_Films_Update'),
+                   InlineKeyboardButton("​🍾𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌", url='https://t.me/Mc_Group_Update')
                ]
                )
     btn.insert(1,
