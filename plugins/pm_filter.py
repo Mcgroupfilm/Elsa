@@ -1544,8 +1544,8 @@ async def auto_filter(client, msg, spoll=False):
     key = f"{message.chat.id}-{message.id}"
     btn.insert(0,
                [
-                   InlineKeyboardButton("📢𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄 !", url='https://t.me/Mc_Films_Update')
-                   InlineKeyboardButton("​🍾𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌", url='https://t.me/Mc_Group_Update'),
+                   InlineKeyboardButton("📢𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄 !", url='https://t.me/Mc_Films_Update'),
+                   InlineKeyboardButton("​🍾𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌", url='https://t.me/Mc_Group_Update')
                ]
                )
     btn.insert(1,
