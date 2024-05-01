@@ -316,17 +316,12 @@ Elsa
 
     CUSTOM_FILE_CAPTION = """
 
-<b> 📁 ➤ 𝐘𝐨𝐮𝐫 𝐅𝐢𝐥𝐞 𝐍𝐚𝐦𝐞 `{file_name}`
+<b> 🗂 𝗙𝗶𝗹𝗲: <b><font class=smcp>{file_name}</font></b>
+📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>
 
-🧲 ➤ 𝐘𝐨𝐮𝐫 𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞: `{file_size}`
-╭────── • ◆ • ──────╮
-𝐔𝐬𝐞𝐫 𝐍𝐚𝐦𝐞: `{user_name}`
-[Click](http://t.me/nasrani_update)
-𝐌𝐲 𝐍𝐚𝐦𝐞:`{}`
-╰────── • ◆ • ──────╯
-  ♡ ㅤ  ❍ㅤ     ⎙     ⌲
-  ˡᶦᵏᵉ ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ</b>
-  """
+<b>🔰 Cʀᴇᴀᴛᴏʀ : <a href="https://t.me/Thiranitsme">Tʜɪʀᴀɴ ᠰ ᴋᴜᴍᴀʀ 🇮🇳</a>
+🔰 Cʜᴀɴɴᴇʟ : <a href="https://t.me/Mc_films_channel">𝐌𝐎𝐕𝐈𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋</a>
+🔰 Gʀᴏᴜᴘ : <a href="https://t.me/mc_Group_Films">𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a></b>"""
     
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
